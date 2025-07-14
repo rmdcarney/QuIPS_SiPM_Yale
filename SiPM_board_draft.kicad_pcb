@@ -1,0 +1,8432 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x0001000_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "gerbers/")
+		)
+	)
+	(net 0 "")
+	(net 1 "/D1")
+	(net 2 "/D3")
+	(net 3 "/D5")
+	(net 4 "/D7")
+	(net 5 "/B1")
+	(net 6 "/B3")
+	(net 7 "/B5")
+	(net 8 "/B7")
+	(net 9 "/E1")
+	(net 10 "/E3")
+	(net 11 "/E5")
+	(net 12 "/E7")
+	(net 13 "/G1")
+	(net 14 "/G3")
+	(net 15 "/G5")
+	(net 16 "/G7")
+	(net 17 "/C8")
+	(net 18 "/C6")
+	(net 19 "/C4")
+	(net 20 "/C2")
+	(net 21 "/A8")
+	(net 22 "/A6")
+	(net 23 "/A4")
+	(net 24 "/A2")
+	(net 25 "/F8")
+	(net 26 "/F6")
+	(net 27 "/F4")
+	(net 28 "/F2")
+	(net 29 "/H8")
+	(net 30 "/H6")
+	(net 31 "/H4")
+	(net 32 "/H2")
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "03181ab4-894f-4865-9ee8-1cb9cf7ba40c")
+		(at 76.5 91)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H3"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "4150740e-eb36-40ca-87d2-1f9a56e0bc73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "ac287141-fda1-455d-b1dd-7691564a003e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "427b939f-80b8-4292-a1a0-e6b88ae4baf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9f27d5c-bbe5-40b8-8264-893ebb2b092e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473b73a9-bb61-43a7-8796-0b866f94ccc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/8ed26cd4-c698-493d-adbf-b593111401d1")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8f3fe8f5-5547-4536-9b7d-d2123063d2d2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "de8f8d4c-e312-4378-9999-141546944445")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6e610095-a580-4100-bb94-35ddc459ee7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9b1f753b-e6ed-4e68-8479-e52f99ffd584")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "08759f17-55cc-49fa-961f-d0df9dc6f21c")
+		(at 91 60)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J20"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "e83acb30-8672-4cde-94a6-99aa14eeeec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "2efe1bff-b6e3-44cc-9462-5757b976bbd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ec1eb4-fdcf-412d-9f16-b5d499c459b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e2b1867-b66a-4218-9443-fc0093b760f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8af2e5b4-0e8f-4edd-a557-dd2b7b77aed7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/8ceebc6f-ccb7-4089-843b-ec5360a822fe")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "040f36b2-5639-4afe-83cb-d0d012c79e0c")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b364f71-568c-4636-a631-cf3093e8aefc")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfa52c5c-b3af-48d7-85ff-48975f2eeef8")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12ef659c-5ece-48f4-890b-bc370cd91541")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "570b473c-c2f0-4b1c-8663-d26198a12cfe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2879d3d6-59bf-4f79-9aa3-73f9c0376a3e")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 20 "/C2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "12b67bf6-1da8-48ff-85cc-8b10016f1877")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "08d499d2-5efc-48c2-a44c-a8487e830092")
+		(at 81 70)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J6"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "733be50b-0860-4f3b-9173-ce1eedf3f4ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "27863225-9c36-4dbf-bc01-884fcc533af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0d9deca-84cb-47ad-80e2-f6b5d9f77540")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9421a9f4-cda8-42d2-adf0-588b3674d32e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "356be692-e459-4a1d-a4d8-76b2a50b5765")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/0fb99ea2-b33e-4be5-8b14-f1c0d75359df")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c34f8e9b-b1c9-482f-8b25-e076f005dde8")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c6412bf2-6b9e-429a-a2f4-0026dfe5ce59")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67c5f706-ff67-4a87-8b03-cad761c82998")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99c67d3d-1077-4063-ae4a-9bf917f06859")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "1e15a468-0ec2-4ac7-acbc-4dbb5b5ff022")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a63690ba-457e-4e77-8721-c9c09a49d76b")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 6 "/B3")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "05ffb646-7e3d-46d4-aee5-a5fa0f543a6e")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "17c63f6b-2edd-42c9-9fb1-91ff4b751368")
+		(at 106 57)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J13"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "c9be74a2-1886-4784-a0ee-2049870633bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "12bde126-99b9-4c60-a0ab-4d25609da8fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be506216-ffc4-467a-b349-914132df826b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "102080bb-ebb3-48ee-b790-19edb470cb1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dbb187a-69d0-461c-bd2a-8133dce7bbe4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1b98f713-2824-4773-8a8a-7cdb9d8a40be")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bcd075d7-9fbe-4c2f-9855-45783900f9a9")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12a1f528-a585-4da5-aa83-817e82414bd9")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d59b6667-ebdc-4eff-8367-add79b8cf80a")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8318ad2c-50ce-44ea-8c0b-e1de58e6d775")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d5eccbb0-e29d-4b62-8b77-47f1fada815f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "66459f69-cbe5-4182-87f4-9bba3f45b57f")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 13 "/G1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "5d422d42-b7c2-455f-adbe-0b440cc8c9e2")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "1c3b1918-1e96-444e-ab99-07f8355572e7")
+		(at 76 65)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP1"
+			(at 0.725 -1.775 0)
+			(layer "F.SilkS")
+			(uuid "0f19d1b7-d196-4480-824d-1a32619f184a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 0)
+			(layer "F.Fab")
+			(uuid "e44eba04-28ba-45ae-844a-de6bda4bda17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f41b728-6a9c-4552-b729-124cf16e06da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "508a0bbe-b90d-4833-ac80-1b0137a979a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "041f3343-f020-4681-ab9b-99889f5336ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/0eb56d53-6376-4e4a-9394-a0a451b33123")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b593233-2e09-421d-a541-db13822c5f31")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "afed65e4-9d7e-42b7-9c1f-c4de491e28ef")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8ee8b62-2a45-406d-9a24-a72d4764b88e")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0f203934-4432-42b9-88ac-0cbb3225f23e")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14660f6b-2026-4ea8-955c-33141af8686a")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "735e0972-007b-4419-9fb5-f73135d55e4f")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86c1274c-1272-4fc7-86a1-07d4e5ff1680")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7a74da60-dfe6-4f22-a509-fa2c172069cd")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0ccd00c-ae3c-4e42-95a7-a23ba1cb173d")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33f5cf22-4451-45ac-834a-4a2f6178d0ee")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5f9f5813-fa3d-499e-aa1b-ad314551c930")
+		)
+		(pad "" smd rect
+			(at -1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "93604b1b-d2a1-4b24-ad7a-c5afe071fe6e")
+		)
+		(pad "" smd rect
+			(at 1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "6f8bf912-57e4-4008-8a67-d3022e6d0114")
+		)
+		(pad "1" smd custom
+			(at -2 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 24 "/A2")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f8bf1b9b-7f2d-46fd-8ca3-88328ce292b8")
+		)
+		(pad "2" smd custom
+			(at 0 0)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 23 "/A4")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "b09f2083-055c-4faf-a27c-f27f65f9f809")
+		)
+		(pad "3" smd custom
+			(at 2 0 180)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 20 "/C2")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "d6f021f0-1289-4ab6-b666-647994fb26a2")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "1d465657-7783-4599-a52f-6a6a569dbabb")
+		(at 81 76)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J7"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "be654bd0-11ec-432c-91cb-037123c9dc1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "26d1cb1e-6da8-4743-9f12-af39ab852397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d2dbd9e-877c-4adc-9e7d-8170b9129fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4959ab62-069c-4f82-a917-1189d5dbc388")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7306ca1b-8106-4672-9e53-686648d1a78f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1e370b6d-342a-4263-8772-ed0b7d1df2fd")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f77e5a5f-83ce-46a1-8e95-681a6892d080")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6238ef33-0e28-4fab-9a3a-b2df3ca974a9")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee63b656-4191-4169-93dc-c4c033b1c2ad")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11344bc3-d8c7-419b-8068-699a2d687951")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "ffc504e1-93e2-46ae-8c77-53a96f8a0b76")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b4042aeb-5c43-409f-9335-70c2e122f7f1")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 7 "/B5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "35fa5a17-5eba-48bb-925f-45053aa6c3f9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "237c2237-b9e1-4fef-a79c-c457b0df3eb3")
+		(at 81 82)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J4"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "1524612a-7638-43d5-a82f-6ce0b3a6290b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "a3ed6bf3-6040-4b93-a2d1-209efaffdcc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95bcc03a-d097-4924-8152-ea98f141ecec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "863144c0-fea7-4110-972d-8655db6d7f47")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d81ab437-c0a1-4a31-b788-18e4aea18692")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/f67960d5-edb4-4516-98ca-535185150a57")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99736115-f8d3-4c2d-8c06-b0ab26d51b18")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea49e043-44d0-4254-bf17-ecaf61723d5f")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9feee53c-e216-45f8-b8c3-f7e98f7a99ff")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f24aec6d-56d8-4865-83c7-9bcd6aba62f4")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "97b64627-9d01-42f6-ab8b-26761c86e585")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fc98a20b-0263-4b96-b309-200ffa548d4e")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 4 "/D7")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "fd436f35-18b0-4ff8-b6bc-d3fc2204d448")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "2bf07f80-e931-4f7d-a1fa-aae8890bf3a7")
+		(at 118 82)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J16"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "9311b388-b794-42b0-9d1b-26bbf1659ef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "f3388504-dc18-4d25-ad5c-f24fd4e31f90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a9b2241-4e98-445d-ad12-fb2ab81775a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f17c81b2-0b89-4c63-b64f-e779f56526c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf225508-e2a1-4e86-aad0-a52989404fac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/040ab220-9d12-4902-b743-1a322e619676")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "501d71c0-f6b8-4224-8fec-168974c17bbe")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "54867194-1edf-420c-9e43-d09213bf2f8c")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3d3fda6-5ccf-4275-84a7-523ded974c23")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb4219e6-25f9-4491-b182-bf51c5680646")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "2daf22d9-9c5e-4ff3-ba4c-2a0f1a0c6103")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "32912330-b4e3-46e3-9208-54b527f604e4")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 16 "/G7")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "4695f295-e02d-4c7e-b51c-aa27682a35d5")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "32779153-570f-491f-84e0-cad49272f7d0")
+		(at 75 69)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J24"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "b5359570-58d3-4a12-be34-b534c7c0d61d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "4770ca5f-7014-484c-8552-c41029259654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14bf5624-a3bf-4998-a10f-d0d16a1c3a29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c64ad759-3ae9-41b9-acb7-d426e5226e41")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f721808-eb37-4738-b88e-3a07a0cee189")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/3507afa3-0788-42b1-8af4-88cbd8e63725")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b6dca27-9415-4fff-912b-afe3baa14ede")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f6190be5-cc1f-455f-90f3-5b43487f55ba")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e3ef6e60-987f-41db-8435-c0d7cb5fba82")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a5fe8444-496f-4db3-b62e-e8149df6f13d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d7a413a7-4735-4d15-a2c6-8eb4e9eb0ff8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c54f4512-393a-4678-8fcc-7446e4bcbecb")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 24 "/A2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "c91a3401-6724-4f65-a826-3469222ffaf9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "5fd99b27-df8b-48bb-a92b-486921939924")
+		(at 75 74)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J19"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "45da0d15-bf52-41a0-a7eb-83415e1f93d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "65e16bcf-2796-4ed8-9ff8-be7a9dd28443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "927c9637-1a9f-43fe-9e22-d1d4905a5b85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a3b4029-52ff-4582-889f-599d787c3b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e05d42e-bc1e-44dd-b98a-1b1b3ba35850")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/7c7123f9-6f17-4080-9ee1-b642a388bd73")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "94160f3c-f3a7-431b-8e4c-ce9d994e9d84")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "215884ee-8589-49a4-b07a-39a2e86ebadd")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4abdf28e-f964-41de-84aa-ca27d4a69e59")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "28dcd3c2-a69c-46d2-b410-6c28dc2c6a4d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "53ce60ce-2120-4047-b8ff-9d2db095ca1a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c16f4d33-0c41-43db-94a2-349e03647fc3")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 19 "/C4")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "6f81f9cb-8028-4f69-914d-f9b78abcffa1")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "65c3afd4-f313-4e56-ba51-dd46c6db71f2")
+		(at 97 60)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J9"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "18be6724-532f-4fb3-9951-d9357b2e9a1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "d859b66c-3b93-46ab-aa46-ac90446ab5f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a378a72-09da-4d7b-b42c-027daab8b2d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5743989-434d-48cc-9416-3b16fe86e83a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed7caa4e-71f5-49fc-9632-15e35e3358b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ca6f371d-f316-406a-b999-e4b705e3ea50")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "28ba3c6c-32f2-4ca8-9d6c-5400e83be991")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7a12687-852e-4186-9740-85cc5690d0c0")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a58f1759-c364-4a17-a38e-d3d9ea06363b")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81836240-f319-4edb-92c9-d53cc5ab9de2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "99333245-b514-4412-915c-79ce21956f80")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6fbb1586-cccc-417c-994a-dfb467d2be7b")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 9 "/E1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "868374a8-7379-47ba-a169-5e648d4d8dad")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "66541cf0-a820-48b8-88bf-d946cd534877")
+		(at 86 92)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J21"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "ee78950e-2cf0-4073-8c68-1cd309b26269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "441d5d7b-41c1-42d7-a299-695435d40d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be4d78c1-283f-4026-82fc-18ed8de11749")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b80d22e-57f5-47b0-aa02-7da7a94874a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81720eb-9f54-474a-9ddd-9e9bd8b61d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/07fa8f91-0675-4e17-8d31-e0bbc9a6be34")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a88edef-2cb8-4d22-a6b7-cf3afff0b2ad")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ce51c36-096d-4c3e-a3ba-42eb5aff6008")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50bd51f8-454e-4831-b40d-c1a883fbec4e")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "093f7f8c-5725-40c4-9925-5934770ca0a5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "14386a10-fc75-402e-91e1-7a86ade65ad0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "01001a0b-3765-4587-9894-7e60ac88be2b")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 21 "/A8")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "5195c173-04de-49a9-ad8d-9edf05de034a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "670f560d-b8f2-4480-990f-b63f9c816304")
+		(at 81 73)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J23"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "1dbffa90-e512-438e-b7a2-21a2d3d01e1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "10343420-ec27-44e9-8369-bf31fc5541ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d4c36c9-34e6-4c65-b852-527028b2f69b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0805572d-39c6-48e6-9a5d-c304edfcc02a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57783cd8-51f2-458d-aec4-a7adf549267f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/4b1d67dc-8ffa-4f32-8bb1-573b247e67da")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4bae99f4-2003-4e68-9314-cfe44b2571e5")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b14a3d1-3d77-4961-8af5-154ab7a33b15")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aca32ba8-0c2c-43c8-8397-f35bfb84b639")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6d82260c-722c-440a-8b8d-9e3ac5cb5ef5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "842fab66-2849-424d-94e9-067c00d78adb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "40cccd59-d792-4d87-937b-d9a8c29cd261")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 23 "/A4")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "87b153e6-53ed-4ea7-9b7e-2c63e2406fbc")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "6aaa5096-e3f9-43c7-b85b-0203e914d337")
+		(at 89 57)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J5"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "b9d6b390-a985-46ed-9c76-4a870bffb7fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "05237c48-418d-433d-a30d-bbdf07239a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdcf00e9-7d79-4dcf-b833-39352205f8ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8bf315f-020c-44e6-8e14-8ef351ddeb4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f926e8d-6fd6-494b-a3d4-b33e0b408e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/16a4aeed-6026-4c96-8877-f23f50f02621")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "323d67bf-0803-4bc5-a136-f4472653a505")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f2b08c8-7542-444e-b6cf-199254847c36")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05f427d2-1377-4863-b25e-bbd4897e4fd8")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b94aad0d-f09c-4b12-84b4-34339918ad79")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d9c4a66f-a057-42cc-b5b5-f0a4439cc5ae")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6c5d0c19-075c-414a-8084-b1c223bce2c6")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 5 "/B1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a995fbd7-d12e-4101-8db7-b2144fd3d33b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "6bbe94ad-a414-42b6-930e-858601548672")
+		(at 111 59 -90)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP5"
+			(at 0.725 -1.775 90)
+			(layer "F.SilkS")
+			(uuid "0c9bbb5d-0232-44af-a5ea-5bec791c6f1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 90)
+			(layer "F.Fab")
+			(uuid "0c17d9b8-9274-4806-9f93-1bae558ad61c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9180232c-a528-4a08-84f1-7426952a4aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2174fd3c-da8e-452d-b813-e734cf8e794d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80875ab7-897a-473b-8827-4a00ec28dbd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/40031a64-180e-4a5e-9f85-7e0d76950027")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1598108-cc26-49c9-bfb6-260aebb5eb40")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "00e89775-63c0-4c1e-a98a-446c43a1f3bf")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "753ea426-08a8-4653-8436-dfdcdead6f1e")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a67f60bc-276b-499b-9ced-5eddb75d13be")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d74e23ef-3695-43cb-a8c8-0e28a2a19e6f")
+		)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3803140d-0f57-4024-b288-52db7e6c4f2c")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5cc9ec70-b54b-4348-a714-60b74254cb52")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ea50b55-eb1a-43b1-a8a4-8a52cb3d380e")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d7ab2a9-1b03-4cb6-a963-88ab7cdbdd31")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14c8c4df-5c82-4924-bc12-8ff0ce908e2d")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0f485c2-1a33-46dc-a453-1c55dfca77d2")
+		)
+		(pad "" smd rect
+			(at -1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "d01419e5-c35b-4147-bf98-594057f4e1a3")
+		)
+		(pad "" smd rect
+			(at 1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "c85afcc0-ec3a-4c9b-9a0f-9f29ce451bdb")
+		)
+		(pad "1" smd custom
+			(at -2 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 9 "/E1")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "1cc66816-8546-4f91-ab67-47cbd925620b")
+		)
+		(pad "2" smd custom
+			(at 0 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 13 "/G1")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "a17cfb6b-2a1f-4165-84be-6646dd8707b1")
+		)
+		(pad "3" smd custom
+			(at 2 0 90)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 14 "/G3")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "0471ee12-e8c1-4538-9756-01bb2c660bf0")
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "746892c0-2917-46d6-84ee-3cfb6a2905eb")
+		(at 111 91.2 90)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP8"
+			(at 0.725 -1.775 90)
+			(layer "F.SilkS")
+			(uuid "71bf9d83-fd44-43a3-92c9-9b8551234882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 90)
+			(layer "F.Fab")
+			(uuid "ce243985-24bb-4285-92eb-b797ba792cb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3eb7454-7ee8-4b98-9375-b5dbaada320b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae1691ed-c331-40a8-99d5-6a92844a5e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2994b396-adb8-47a3-81b9-0e7800ecb8ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/8779510c-f174-44bd-b020-49a1467af785")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c5dde1c-1d8b-4dab-aee9-fed895245038")
+		)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c27e05a0-5586-4925-be3f-732fb186ee1d")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2977efe-5c7f-4253-9398-45c041f81490")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78d64c4f-e4b8-4558-a485-b554eb7013c1")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ff22cbb-f698-4f37-9650-ad8eaff3a51b")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "950fafcd-0ec5-445d-81bd-3f23a10bab78")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0903c418-7b4f-4e14-b760-b248ed5a42e6")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "382756f2-0ca0-4716-9409-3050cb81b9e1")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8872030b-179f-4b08-9c2c-0a310714451b")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7109bbd8-89da-47ac-a363-ee3f4f37487d")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "03cb4e54-6609-46f0-b076-b898030ea595")
+		)
+		(pad "" smd rect
+			(at -1.2 0 90)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "cd47036c-9765-422d-ac25-6ed861464aa0")
+		)
+		(pad "" smd rect
+			(at 1.2 0 90)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "5cbdc04d-6cb7-4e55-a87a-4117d63237e6")
+		)
+		(pad "1" smd custom
+			(at -2 0 90)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 25 "/F8")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "07ddcc3a-fe3a-4ecf-ac21-9bd06b0408e5")
+		)
+		(pad "2" smd custom
+			(at 0 0 90)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 29 "/H8")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "16ff30e0-3d15-49c9-9054-41917faed1b0")
+		)
+		(pad "3" smd custom
+			(at 2 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 30 "/H6")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2be282de-bd9a-42d9-99be-c420a0959ed6")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "759c2b58-02a0-444c-9ba5-9f9edab96f9a")
+		(at 103 89)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J25"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "1d0178c8-3693-4d2f-a6f7-d9f1f73e4d19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "aabf5f99-f435-4df0-bde6-db9212fdcc8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "424df3df-b9ff-4fa1-959e-9b76e60c4d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99254d40-cf68-4667-9f17-d4fcdc38257c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2715c2d3-7077-4fa1-8e4c-8d5992da7813")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/57cc68ae-f549-4d3f-a653-d913844e75c9")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c44cb272-4508-4b05-9619-d672d1c51d10")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22737de3-d597-49f0-9144-5dd74339ea1c")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc37d2bc-70ef-4999-86a1-fa0d53077622")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76dcc6a8-8252-490a-990c-8a0188479b6f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "29d833f3-8c50-441b-adc6-746d5fdd993f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6109e7de-4882-421c-baa4-8c1742f40dc9")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 25 "/F8")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "b448ee31-38eb-432a-b316-8cfff496e37d")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "7e238f68-35b8-49b9-aded-615639276e1b")
+		(at 115 85)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP7"
+			(at 0.725 -1.775 0)
+			(layer "F.SilkS")
+			(uuid "8e3428a4-73f6-40fd-bf09-2fc600e3de92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 0)
+			(layer "F.Fab")
+			(uuid "343430a5-8432-4e6c-87b9-fa08e0d67bf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b954faf-b239-43dd-828f-5c2eede4d290")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef99111e-0ab1-4ee8-97b0-86e4abdff2fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5755b31-39eb-47b5-8b85-096aaa654b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/67de7b81-dc7a-489e-b3e5-de48faf176ba")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0126c55b-08f5-4528-8d89-e66a27f2388e")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1a600692-1906-4f23-be66-ac5547fa41b3")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d2ca241-2d81-4604-8290-d56ff8ee4c55")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89350350-2dc2-422c-8afa-828415126158")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c4eeb73-20b8-45fd-a3c6-7de97bfe484a")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "230623c8-e243-4020-933f-b73cc69ccf48")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98f034b8-94aa-4b7b-aeb0-fc3fc2a79b71")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "41240f20-da91-46bc-a188-1c6b9740e016")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "adc241e6-3343-4dba-9624-b6c28acda26a")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "86bc97bb-0f7f-4db3-af8d-ca7189f562c9")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ce65516-3644-4a80-a161-18bce2e1991f")
+		)
+		(pad "" smd rect
+			(at -1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "9aaac18e-ddca-4469-a526-a9e98568b55d")
+		)
+		(pad "" smd rect
+			(at 1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "69ba7891-90a6-4a1f-ae93-b4f55f3b154c")
+		)
+		(pad "1" smd custom
+			(at -2 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 12 "/E7")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2e9269be-e27a-44a7-8159-3561df186406")
+		)
+		(pad "2" smd custom
+			(at 0 0)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 16 "/G7")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "0c27fe21-0042-43cd-a50d-37fc733bd2c6")
+		)
+		(pad "3" smd custom
+			(at 2 0 180)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 15 "/G5")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "24d62d98-59d7-4a98-a250-aee433c80a2d")
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "8655baf5-3d9b-487f-9ff6-0c79bac33744")
+		(at 82 58.8 -90)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP2"
+			(at 0.725 -1.775 90)
+			(layer "F.SilkS")
+			(uuid "b65b9688-d4d7-4a19-9ed9-83c65cc9b428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 90)
+			(layer "F.Fab")
+			(uuid "b73a1a53-ff82-4bc1-88a0-ef172a450d4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eabc21e-96d0-4aa9-956f-f45fb00fdb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cb96a6-1c46-4caf-b75d-872f80ee7497")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "593e4ebf-5a3e-4707-851c-66ad6ffaaeb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/671bc42e-ef09-4efd-a16d-e42b5cfd57a5")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "efa3e85b-01bf-4b54-b823-bc73ca902542")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8dbe3a33-fe46-4b4d-a2b2-a0dce39a2192")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa302120-5660-4466-9657-0fe3261d5783")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0077dfd3-5dcb-4db9-a297-9e8e0b3ff816")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67c8ae32-a5d3-4442-a0bd-c666aa3cbd60")
+		)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fcd9418a-0c43-407d-a87e-40d387b5d250")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "54b22882-c18b-4308-85d8-84ecb77832bc")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3fd704d8-6626-4770-9941-5a054502abe2")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cb661adb-40e6-442d-b24a-273d8307d1dd")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "40aad03b-ae4c-4fee-b38b-991c712a1add")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25cc8396-b7ea-4dff-8ebe-9ae18952bd36")
+		)
+		(pad "" smd rect
+			(at -1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "f07f3b43-2015-4aed-89d0-03b55839ac4e")
+		)
+		(pad "" smd rect
+			(at 1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "09e031be-3101-4869-917b-8db054c8f2ed")
+		)
+		(pad "1" smd custom
+			(at -2 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 5 "/B1")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "21a51d06-4aa0-4fb6-a364-76fc51df2d1a")
+		)
+		(pad "2" smd custom
+			(at 0 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 6 "/B3")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "7a5afd1e-9f68-4f3f-8be9-f24fcb989d90")
+		)
+		(pad "3" smd custom
+			(at 2 0 90)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 1 "/D1")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "9e1dca8e-ec7b-47cc-a7f3-269a612deca5")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "8a9086e7-3a32-4923-8fbc-30a3347c8e93")
+		(at 102 57)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J27"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "4b2603f6-ad1d-4d7f-ae33-d6623d058a55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "e4bd137d-e106-4002-98b4-4d6757cc6c98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bbc7b86-2fde-43c3-bef7-83fa449106e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a41ad116-a3a2-45b7-9c85-897d83f05769")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8ae4d61-85d5-4e5e-bbab-0cb9d2d1a07a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/fb38e4a8-c238-4c24-97f4-e737ba2c6915")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8b3ac130-f8e3-4868-8bea-46294b4aaefd")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "619b3a28-1867-472a-a34a-3d778a5318f8")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "101c8f5c-a7bc-42f4-a0e9-8c629afdb919")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "34de6cad-1b4d-47b4-89c0-2a9b394b72ac")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "6b141151-e5fa-415c-8560-2621c741e772")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9b349382-6069-46c7-9518-957feee82182")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 27 "/F4")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "c452f3be-5f0b-4601-8302-02fb94e48235")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "8fc7c131-baf4-41e8-bd58-31915d7a24aa")
+		(at 115 65)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP6"
+			(at 0.725 -1.775 0)
+			(layer "F.SilkS")
+			(uuid "ee9914af-5beb-4ed4-82bf-552f6bb6e10e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 0)
+			(layer "F.Fab")
+			(uuid "83b7e783-f13e-4693-bdeb-c7f819f85262")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba54f86-ed6c-4a4c-a357-2a8d5ceb002a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8bb85fb-8aff-43d6-86d4-127708c9cbfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "550fda78-fa35-46f7-908e-4eaf6be36962")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/2bd7a91d-dad3-4b70-a211-5a2a37b453b5")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae40b321-6a53-4bba-a649-e3fde9f7da8d")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e71ee299-a10a-443b-b800-c03d474c70e1")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ac04da8-bfb8-4cfb-b327-820c8e67aa1d")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12f953ef-8c5a-42a2-a2a0-125099f1ae3d")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "870efec0-11dc-41d3-8706-8c72078c5648")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c92262c-c8c5-41e6-8b22-f9ed57ddd751")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c49dd333-a42d-48e4-8cbc-8ad202f5b5fc")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "01b24a2f-17a2-42f4-b975-a716186ac9bb")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ebe4bdc-93dd-4703-af63-eac94ff5c65c")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49ffe694-7c43-4e57-a265-b3920dd2322f")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4f633a0-88f6-4fc2-b8cc-fe993f9be93c")
+		)
+		(pad "" smd rect
+			(at -1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "672416c4-0a82-49fd-8efc-7897e61945cc")
+		)
+		(pad "" smd rect
+			(at 1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "ecf68580-1c39-44d6-80c7-da5686561e84")
+		)
+		(pad "1" smd custom
+			(at -2 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 28 "/F2")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "797b5dd8-f9db-4e7f-a0a2-d22cccb0229e")
+		)
+		(pad "2" smd custom
+			(at 0 0)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 32 "/H2")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "9f2a0d3b-3c89-4471-95aa-3e0ff0d1f528")
+		)
+		(pad "3" smd custom
+			(at 2 0 180)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 31 "/H4")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "e36d16b8-abd5-4272-abfb-3fa84aab8647")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "90b4960a-c447-4bab-b5b9-03d82f4827d9")
+		(at 92 89)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J17"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "06afa90f-c3a8-4e02-82a3-0897f983119b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "6f43494d-5433-42ed-bc78-f3a836ae1dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2802bee-4e2c-40f1-8965-0d1ee3bc07dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d0fc46c-d90b-41af-aae8-03704d9b936b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67743a57-726e-4cfe-b4e0-3948a6da8d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ec084e3a-de7f-4da5-b236-9cd36aa3eb2f")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50b64fac-875c-468f-b05f-fc98ac17d284")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b282915f-f09c-4936-96a8-c42148d38d7b")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb1ec479-bf11-46e7-8893-bd1b1f64453e")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b914536a-9ae9-4895-b24c-400dea25d1a6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "b3fa7512-9da4-4f0d-883e-411024f8d6de")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "be9811fe-fb70-4e7c-a9a9-d57a3b983cd6")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 17 "/C8")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "eb1028e4-58ee-451f-af43-c6b1a9884e7c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "9553d8d3-6be4-4de2-943f-67fab7797df7")
+		(at 106 92)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J29"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "2e225250-9061-407a-900e-ff0b5473b58d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "0a56367a-7c2d-4f5b-990c-9305a9f4b17a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85ef703f-d1b4-4596-9d97-b2469f44ce93")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eb231d7-4270-4565-9393-a7305d93de28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19a848b3-0fa5-44a2-9b8c-0e78faef4316")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/fb99ad04-31aa-4b2c-947e-c0c1c182d811")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0ce23336-f3f5-4c86-8844-8992552ebc8a")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d8a7a579-7ca6-4596-8746-8c20d0fa6401")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b28ccdfc-9edf-482e-a893-ceaf2266f6ce")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d41742cb-0bc8-4743-b1a1-858105846a69")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "3a64c733-91e0-425f-af04-ef8f91501ee1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "17e0b486-e886-4ec4-ad1f-48504a2e163c")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 29 "/H8")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "01ed1e61-f727-4611-a360-7b7bdc26533a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "95841dcf-f0b1-4c84-929d-7243bf0c902c")
+		(at 113 80)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J30"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "4e479277-918d-4103-ae0b-c6f38d28c7e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "02ec2b2d-ef3f-4b05-8f8f-40ceec49a695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "405133a1-db08-4557-ae1e-9e6f55cc9572")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d912e6ba-ec99-4cf3-ad66-3c73f06ddd04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47783fa2-3fa5-48ff-9954-6a4fc077a659")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1aec1301-245a-4884-bb57-2184f2ce74fe")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e914a4f-8091-4aad-8a22-fea9933186b6")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "99f4bf00-1cf3-40e5-a1af-05fba738c601")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af7c115c-321b-4bd7-9408-cbcd941ae342")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5dd6384e-29f9-4794-bb2b-321f6401a4ed")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a2a4c7b8-7e33-4a32-b8ce-a8ce5aab7fea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e5c2ed0f-23cf-4fe5-9f47-72e4c3fbd9a6")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 30 "/H6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "b082b5ab-f400-4235-b7ae-ca36f067c781")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "96703863-3246-4a46-a254-ba86f1b8615f")
+		(at 116.5 59)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H2"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "d152290d-f657-42a1-a9a9-80cf95f79ca5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3 0)
+			(layer "F.Fab")
+			(uuid "89904956-c9f8-4dc1-a816-1fcd5263a2cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "050c923c-d9e9-44a9-8337-dea12e64142d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d55fb1-9d50-446d-899f-f0e0b8532e1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55c93c9c-0d64-4ba7-8b4f-2acbbb046d18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3b77ab25-f667-4c14-b097-8caafd92bc73")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "533b2f83-13a7-42a7-aeb0-95e4521beb7a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "957bde81-53df-4a4b-af9e-c12a933f7a45")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9a3ca747-bbd3-4d94-a29b-6156e10525fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3e626f06-885d-47a4-aedf-14459fb7e1bf")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "9b47b492-9af5-40a1-a6fd-e063a9d8756a")
+		(at 116.5 91)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H4"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "ef8b514b-d345-48b7-b67b-8babb5fab49e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "5773488f-0311-4afa-b4e5-1d0d3e68068a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c151e11c-927a-470a-8faf-c2857bfb9a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e01e640-f186-445e-864f-68d70221b5de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d53d43-dbfb-414e-8802-fd341e2bc3ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/a976510d-b92a-4aeb-ae86-1c3c45569401")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "376a5abe-e975-45b0-8acc-4c270d6ceb7b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "30491c83-4d20-4ac6-b744-53b1e093bcc8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 6 -2 0)
+			(layer "F.Fab")
+			(uuid "0b4dcfe8-d6a1-49e4-a113-1640be9814c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "94127014-8c87-4424-9cc7-a138faff5e5b")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "9dbd6665-922f-4de7-996d-fa05e0e97b8f")
+		(at 81 79)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J22"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "db29cdbb-d52f-440f-8504-3efa9821dd44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "05651c47-791c-4919-9fd1-99388215996f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc38484-0644-4951-ac13-e04d9939e8d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b23fb1b6-a56b-4b2c-8c11-5b5f560303f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b22967c-d4c9-430e-ade2-cdfc877e231d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/84120a77-d6d8-46a8-a340-35f1c5678722")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "38804d60-155a-48a1-864e-f1eff512c792")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05c530df-257d-4f56-b5c4-55d24c01b7a0")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f2f672f-d443-4950-b7b2-95e80aa0cc60")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da8ac824-8924-4273-bdb1-5add376c43e3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "6786b193-f2cc-4e4e-a1e0-cc317a9887cd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1f6ffed3-ce08-4005-87ad-994199acc05b")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 22 "/A6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a57e7f68-98fa-4aa0-95d6-2e3581f20d13")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "9e256672-031f-4e92-942d-ba659a60bc98")
+		(at 113 77)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J15"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "b4b13b26-5eba-412d-a2b8-fcc0a899366b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "05426e0a-96d1-4e82-8e86-390dfd1916c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3917c88b-952c-4cbd-bcdb-44a9a9b304c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95671ded-05dd-4baf-893c-946854e4637e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52579c0a-30e7-43fa-851d-4bb170df5483")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/00ee82c8-b796-40fc-85be-08e938624705")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0797a58d-fcfb-4590-8693-7e391e6f1f2f")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65c00770-e40b-4f34-83de-c51748d4adc3")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8c01efea-643b-41ee-ae8b-d4bbed8d8ed2")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb377466-0005-47f4-b245-94991b19c4c1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "7b202908-f106-4021-8e3d-3a5b9731c651")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8eec220f-33a2-46a4-bcdf-1abc389153c0")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 15 "/G5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "6df8fe30-da75-4d03-bde3-ce72d002dc92")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "9f733701-c91c-401a-a8bf-5aec93adaf89")
+		(at 98 57)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J10"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "e85083cd-ef5b-4c5f-9e46-86ed86a48c4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "3826c821-0e97-4001-986a-2ad19becc242")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57a4e025-694c-41fe-83e1-0cd70a3076ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ff4aee2-3350-4c82-a634-5d7e17941f40")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c80bab2-63fc-40d8-a5ec-e30f5d99e4a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/39dd896e-22ec-4bbd-8c8b-96d91d8f7233")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9159cf5b-9b3a-44a0-a2a7-28e98d74d85c")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "461a306d-8b77-46d1-90c6-af9d8c0bfdf0")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c311b952-159a-4f6d-a307-ac20c1c66c7d")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf817ecd-2065-4625-b6af-c436d5ce5220")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a5f6cdd5-e44d-4312-a2b5-24a4d257a067")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b0c55f7b-cf5f-40fc-ba3d-66cb687308be")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 10 "/E3")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "61bd2999-d632-4581-85a0-b1816124a33b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "a0204767-3e07-42a1-a18b-6e6f8d4e5cd5")
+		(at 100 60)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J28"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "d311c946-3537-49ba-b75e-9aa754d6eb6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "c4a491e1-513a-4a7d-b538-c4ae4ab92938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c49d5d1-596d-4184-ae82-df2bb6c9272f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b019c106-c32b-4786-b8f9-984635677e5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc10410-e959-417b-a66c-424a68c557d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/dac895c4-4e48-42e3-b206-c9a9c391103d")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c8924afe-bb1c-48f8-8d27-da1c74a25b35")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f1b73319-6691-40a2-bf0d-ba4e31a98906")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f0f4581-dddb-421a-acc6-29f21b657f9d")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4655865e-dc53-4383-b57b-0fcc67dc96e0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "098950eb-2fce-4916-91c3-137acabda28d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b51fe1ab-3624-44d9-aac4-72d9c96e2780")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 28 "/F2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "063cc24f-f401-4b36-a3c8-d99e52681375")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "a2353538-de74-4a69-890f-de7a2b84f86a")
+		(at 99 92)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J11"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "cb132893-b483-4633-b45e-f752d7cde209")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "ca7f7b6d-03a0-4ec5-99e4-38c7c8b23ccb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0de8076-20f1-442b-bd68-76b28ac0d59d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fbd8557-b1ac-4e26-8902-0c37dd5c4538")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18762f24-3c18-421b-bd9a-c52dd85a6360")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/5908a054-7748-4c17-a51d-aad247a339c3")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fedc23d9-4744-4db9-82d3-d5c068103af9")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "138e3551-a889-452f-b51c-2384c1b42372")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "835236d0-ca14-4768-b0b4-f7501e1f0ee2")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7066d22a-225c-46c4-8aa6-0c9a518e48cb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "6aff1341-c8db-451e-bd7f-79017115e09c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9af56669-3afa-4060-82eb-161ed4581df2")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 11 "/E5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "340344a8-a760-4d36-a1e4-db1c27332f3b")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "a37e3ac1-8ff4-44f9-b216-e7ea01a4e9d2")
+		(at 75 78)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J18"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "605029a3-51e1-48f0-a858-51100135fb61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "d7343c80-7607-4f77-bd5e-9748763a3ff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79746d47-f20a-4138-b5ac-9e27b1f91295")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87073eec-124f-45a1-a895-697e694d71c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4e0a0f0-020f-4390-b03c-89848abb0174")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/51dc0158-605f-41be-833e-23b2447811c5")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b7b4a2a-c228-465b-8f8f-3d2b43f78738")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fa9bc738-5812-4f04-82f2-1a67eea81a8c")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d197ffec-c7f6-4b78-bf56-05600167a277")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f57ba889-a155-43d5-b3d0-450ea2575d0a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a8eefd48-e17f-45da-9e31-00b335d36631")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e2e154b1-e19e-4c2e-bbe9-df6537d696c4")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 18 "/C6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "f625680d-9033-4e0d-833d-12d7eb85ef78")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "b0a1954d-768b-449d-84c0-f47341b8602b")
+		(at 113 71)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J14"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "72b2625a-2ac2-479f-8bd8-d86769567a22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "e6779655-2c5f-4210-85e5-534823f769ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca31a3e0-be81-4634-a850-e7de85ae6b15")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a18828-1d54-46c9-9446-c01aaf756cde")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c82a1f6f-e292-4e81-8343-5342eabcb552")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/ef23d64a-4d77-46ce-9290-c6a5f126a11e")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66191bd7-cdf4-452a-bf57-6268ea1ba739")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e80740f3-c264-4a68-a7b0-6736e043f884")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afd19164-c48c-462a-b18c-753b5d756c75")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f151df7a-c7b3-45b2-aab4-1f0c432f3fe1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "b96b35e4-f38b-4982-a830-2b118e26602b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "04f28d75-08fe-463b-b5e8-34cc26504913")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 14 "/G3")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "9edddb37-56fe-4677-96f5-01e60c631391")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "c3e68555-7ce7-4531-bf77-5939c36fa980")
+		(at 94 60)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J1"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "0feb39ec-45f4-4936-af9d-ded2eff3d48a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "ba0ed481-d961-4853-b12c-30f507da7ab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e6b032b-0d52-444b-9812-2b96ce4e456c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6fecba0-1d1b-444c-81a7-2ad820e0d899")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f739f419-468a-4a87-bd51-eb5c575f1b90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/2f903472-ede3-4ac8-a181-a459cd8d60ff")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dd951cff-fd3a-427a-aabe-51bc1c8cecbc")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ffe722c-5707-4ab0-b2b3-f905688d9d7a")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5a72f864-a93d-4c66-833e-3d8413b98654")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aeee1ce7-625a-43b1-9a17-8033ad03714f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "e4aeb922-fe86-4484-8eee-ed5f06d32576")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "abe645ae-73e9-48a5-948c-fb463d76d969")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 1 "/D1")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "fdaa95c4-3bc5-412e-946d-69fdea604733")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "cb18c724-83a1-4ab9-ae05-7df18e644d82")
+		(at 76 85)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP4"
+			(at 0.725 -1.775 0)
+			(layer "F.SilkS")
+			(uuid "e555f90b-57b6-4672-96bf-07476f4aaa48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 0)
+			(layer "F.Fab")
+			(uuid "688319dd-2129-4ece-a1f5-d2f3e0de5efe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "752148c0-a8b3-440e-bfa4-8501cf3d0cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2fcfc92-0e6b-44b1-8b08-8439b8b27d29")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59950f21-146e-48fd-b087-31b15d6e50c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/b9c8975a-007b-4e55-a4bd-320e0733fd8a")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c7334aff-b405-4953-b106-1e5978d2854d")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4da96803-e00f-4fc1-a120-4c13ad01f51a")
+		)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "32cc6ca0-27fb-46b3-85d7-e5a1cdc01e06")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67e0d78d-5310-4ac6-8c50-6c3a73e2f515")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d30d4f5-7768-46f6-a3b1-beb22e033a78")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3265d931-6ee4-451e-8f4e-b21b6987c2a2")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b24f1d54-6ed2-4fa4-8039-d2383c685dde")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c3930f80-3b67-4f36-9bbf-a5d34d767e01")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8fb11bfb-50fc-4d14-9663-c83e0dd17e7a")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1a3aa0c8-c637-4009-87ad-9f508ced995b")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9cc1b185-38b1-433a-8321-9e148659cd46")
+		)
+		(pad "" smd rect
+			(at -1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "2e72f9b6-7282-42f9-b4b8-b26074b95e8e")
+		)
+		(pad "" smd rect
+			(at 1.2 0)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "1bddf2ec-2fed-4544-b4bb-bdd6b339179a")
+		)
+		(pad "1" smd custom
+			(at -2 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 7 "/B5")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "51b4e50e-60d7-4f0c-bca9-aedeaa7a5482")
+		)
+		(pad "2" smd custom
+			(at 0 0)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 8 "/B7")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "a8c31238-dc43-4159-84e7-6c33b70210ba")
+		)
+		(pad "3" smd custom
+			(at 2 0 180)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 4 "/D7")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "79bf8dee-30a4-4d71-9412-1c9c473dc282")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.5mm"
+		(layer "F.Cu")
+		(uuid "d0ed8073-417c-45b7-aadf-d39dbcdfc92b")
+		(at 76.5 59)
+		(descr "Mounting Hole 3.5mm, no annular")
+		(tags "mounting hole 3.5mm no annular")
+		(property "Reference" "H1"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "07001bfd-9871-4fc8-b187-c9727e8c88c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.5 0)
+			(layer "F.Fab")
+			(uuid "0f1f1116-49d8-4734-bba2-3a354f5a306a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0829648-ef74-407f-836f-5f0e0fbb2871")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4cc663b-01bd-41ba-9f45-d52061cf96a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddf24b0f-7832-42b9-896e-10d3d57507a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/e426caab-0c62-4135-bd5e-f65c02c0149d")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ee7aaaf0-8b6b-4afb-bcc3-8cce74d68a23")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "7dc74552-184f-4f3a-bbf4-a5a8c98de97c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "319bb3f5-d51e-436c-bdd3-e7c35d78fbf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.5 3.5)
+			(drill 3.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "336d10f8-b295-45c1-8038-9f0b41b4042f")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "d5b29ca7-9476-4c50-a213-ad5bf1322834")
+		(at 118 69)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J32"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "605fb26a-167e-44f9-a2a4-7cd0268b96eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "e3ba7f99-f5d1-418f-8799-89c1aa524587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c667f650-6f70-446e-93ba-eb040ddbd007")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "077a35b1-0b3f-49ca-886d-6b7f4fbca7bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06eb998c-a62c-46fb-afff-e8530a1273f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/626f81a5-5e6e-4a18-8073-90c27c1576f9")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bcdb3905-dc20-4814-a04e-42aee7572b5d")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b6a033ce-25f6-4b95-bb55-88e08dbdab20")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a0c0edc-e018-4149-8b14-70ce1f0c5208")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a37226a7-4f34-45b0-981c-127a91437893")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a818d7ba-5e06-4380-b4a1-3f5b85f01569")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "671ac1f9-30be-4c94-b5a5-6e91404229d6")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 32 "/H2")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "b9bae81f-ac82-479f-8775-f20caaf37094")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "df38f6f5-9d24-4ea6-904f-7d5b6e60e4e1")
+		(at 95 92)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J3"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "d658ff93-baa9-4943-bda3-43ad10e03783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "b82f1497-7cf4-4b0d-9216-af4c4b010976")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca9077e8-9e09-4e02-9707-5869fea8cad2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b0b71fa-1122-4524-8fb1-04fdcc887d0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b15acf97-42be-4c3a-8440-c461ab42fac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/1f0a39e1-ad88-47de-b4b9-84a36a3ff7fa")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba92768e-7c8f-4da8-aff5-3272d86ec92c")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb68d796-cfff-4c88-841e-ae20e5d48103")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "136c62fb-8b91-44bc-83e8-76204dea9fb9")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d241f2b3-5b94-4aa9-b4dc-605c9bd82dbf")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "1717f775-9e53-4669-895b-2f7edcc5e7c4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b3bd6737-1a65-497e-bb5e-67cc18df6cf8")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 3 "/D5")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "951f40db-a8ff-4653-8199-0e29c86a87b9")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SiPM_lib:S14161-6050HS-04_landing"
+		(layer "F.Cu")
+		(uuid "df9dfc22-00a6-4522-adce-b39e0ecf8472")
+		(at 96.65 86)
+		(property "Reference" "U1"
+			(at 0.35 5.9 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "79329acf-3884-4fbd-995c-ba5179e9d7eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -0.1 3.3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "155c4b1e-0047-4ba4-9f29-3f645116b8c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_lib:S14161-6050HS-04_landing"
+			(at 0.35 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7bb3aaa8-554f-4ad6-bfc1-5e90c4fe27c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dbfc06c-9a82-4937-8869-d17e55a92e90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e13972af-37bf-4b9c-86ed-bb04e870c1c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d715c545-9408-45a4-975d-df39375a6f22")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -12.5 -23.35)
+			(end 12.5 1.65)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e22596fd-a94f-45e8-94ee-434a3202df9d")
+		)
+		(fp_text user "*"
+			(at -13.8 -22.85 0)
+			(unlocked yes)
+			(layer "F.Cu")
+			(uuid "93af4bb6-43d8-43fb-bda7-410119c84d24")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "35fcfabb-c426-4746-8102-e30b3e070b61")
+			(pts
+				(xy 85.8 64.3) (xy 85.8 86)
+			)
+			(height 5.65)
+			(gr_text "21.7000 mm"
+				(at 79 75.15 90)
+				(layer "Dwgs.User")
+				(uuid "35fcfabb-c426-4746-8102-e30b3e070b61")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "9202e7c9-4ffc-429c-8bd1-0dc332f129e6")
+			(pts
+				(xy 107.5 64.3) (xy 85.8 64.3)
+			)
+			(height 6.35)
+			(gr_text "21.7000 mm"
+				(at 96.65 56.8 0)
+				(layer "Dwgs.User")
+				(uuid "9202e7c9-4ffc-429c-8bd1-0dc332f129e6")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "a1b01daa-7cfd-439c-a5b1-24fecb3a2069")
+			(pts
+				(xy 107.5 67.4) (xy 101.3 67.4)
+			)
+			(height 5.95)
+			(gr_text "6.2000 mm"
+				(at 104.4 60.3 0)
+				(layer "Dwgs.User")
+				(uuid "a1b01daa-7cfd-439c-a5b1-24fecb3a2069")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "Dwgs.User")
+			(uuid "d900754f-216d-47ef-ad77-998a6c573f04")
+			(pts
+				(xy 104.4 64.3) (xy 104.4 70.5)
+			)
+			(height -9.65)
+			(gr_text "6.2000 mm"
+				(at 112.9 67.4 90)
+				(layer "Dwgs.User")
+				(uuid "d900754f-216d-47ef-ad77-998a6c573f04")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(pad "A2" smd circle
+			(at -10.85 -18.6)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 24 "/A2")
+			(pinfunction "A2")
+			(pintype "input")
+			(uuid "90c230de-8c61-448a-a729-6a1548ce975e")
+		)
+		(pad "A4" smd circle
+			(at -10.85 -12.4)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 23 "/A4")
+			(pinfunction "A4")
+			(pintype "input")
+			(uuid "c102c23e-3533-486d-82cb-12c899177119")
+		)
+		(pad "A6" smd circle
+			(at -10.85 -6.2)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 22 "/A6")
+			(pinfunction "A6")
+			(pintype "input")
+			(uuid "4c8b7f62-4938-4714-b478-89628dc1716a")
+		)
+		(pad "A8" smd circle
+			(at -10.85 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 21 "/A8")
+			(pinfunction "A8")
+			(pintype "input")
+			(uuid "963a3135-9372-4288-8343-a65d92f28f5a")
+		)
+		(pad "B1" smd circle
+			(at -7.75 -21.7)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "/B1")
+			(pinfunction "B1")
+			(pintype "input")
+			(uuid "8a7c1aba-57e3-42c9-9442-97030720f8da")
+		)
+		(pad "B3" smd circle
+			(at -7.75 -15.5)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "/B3")
+			(pinfunction "B3")
+			(pintype "input")
+			(uuid "17383e2f-5403-49c0-99f8-43f0cbe05c18")
+		)
+		(pad "B5" smd circle
+			(at -7.75 -9.3)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "/B5")
+			(pinfunction "B5")
+			(pintype "input")
+			(uuid "6fb62ab1-34a8-466f-a8ab-7dab781734ac")
+		)
+		(pad "B7" smd circle
+			(at -7.75 -3.1)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "/B7")
+			(pinfunction "B7")
+			(pintype "input")
+			(uuid "b1faf34a-926f-4250-b08b-651cdf62ae0d")
+		)
+		(pad "C2" smd circle
+			(at -4.65 -18.6)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 20 "/C2")
+			(pinfunction "C2")
+			(pintype "input")
+			(uuid "b15bd3e9-1931-428d-bfdd-b23272a1618a")
+		)
+		(pad "C4" smd circle
+			(at -4.65 -12.4)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 19 "/C4")
+			(pinfunction "C4")
+			(pintype "input")
+			(uuid "0d200c84-d6e8-46e9-a49f-850a2955d4c9")
+		)
+		(pad "C6" smd circle
+			(at -4.65 -6.2)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 18 "/C6")
+			(pinfunction "C6")
+			(pintype "input")
+			(uuid "05826e3c-0dd7-48ea-aa01-46998af573c3")
+		)
+		(pad "C8" smd circle
+			(at -4.65 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 17 "/C8")
+			(pinfunction "C8")
+			(pintype "input")
+			(uuid "c2acf58c-f092-4b2d-8bca-4c316c59cc26")
+		)
+		(pad "D1" smd circle
+			(at -1.55 -21.7)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "/D1")
+			(pinfunction "D1")
+			(pintype "input")
+			(uuid "b2074b5f-88db-4531-93dc-7fb098898ded")
+		)
+		(pad "D3" smd circle
+			(at -1.55 -15.5)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "/D3")
+			(pinfunction "D3")
+			(pintype "input")
+			(uuid "4b0a1dc6-1822-47b8-b9d8-d694e22967e0")
+		)
+		(pad "D5" smd circle
+			(at -1.55 -9.3)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "/D5")
+			(pinfunction "D5")
+			(pintype "input")
+			(uuid "b7cd6e11-dc36-426b-b06d-509bec0ed62c")
+		)
+		(pad "D7" smd circle
+			(at -1.55 -3.1)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 4 "/D7")
+			(pinfunction "D7")
+			(pintype "input")
+			(uuid "7cb74b1a-4eed-4ab2-9aa0-6b835af2bbf1")
+		)
+		(pad "E1" smd circle
+			(at 1.55 -21.7)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 9 "/E1")
+			(pinfunction "E1")
+			(pintype "input")
+			(uuid "f569d590-6298-4135-8657-54089a7e997e")
+		)
+		(pad "E3" smd circle
+			(at 1.55 -15.5)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "/E3")
+			(pinfunction "E3")
+			(pintype "input")
+			(uuid "e435ceee-04fa-48ba-a9ad-0536f4c73457")
+		)
+		(pad "E5" smd circle
+			(at 1.55 -9.3)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 11 "/E5")
+			(pinfunction "E5")
+			(pintype "input")
+			(uuid "a2eef2cd-cca9-4baf-92a1-4c8d1e438c9c")
+		)
+		(pad "E7" smd circle
+			(at 1.55 -3.1)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "/E7")
+			(pinfunction "E7")
+			(pintype "input")
+			(uuid "e227bc46-01e4-4437-9307-9200bdda4c75")
+		)
+		(pad "F2" smd circle
+			(at 4.65 -18.6)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 28 "/F2")
+			(pinfunction "F2")
+			(pintype "input")
+			(uuid "aa6a132e-9f69-4fd4-8f5f-c0ce1b5410d9")
+		)
+		(pad "F4" smd circle
+			(at 4.65 -12.4)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 27 "/F4")
+			(pinfunction "F4")
+			(pintype "input")
+			(uuid "850f1233-1ecc-45ec-8cb9-c51988383d65")
+		)
+		(pad "F6" smd circle
+			(at 4.65 -6.2)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 26 "/F6")
+			(pinfunction "F6")
+			(pintype "input")
+			(uuid "92dca6d6-0b68-464d-920a-1935f8c8e238")
+		)
+		(pad "F8" smd circle
+			(at 4.65 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 25 "/F8")
+			(pinfunction "F8")
+			(pintype "input")
+			(uuid "d433a1ba-686e-4998-934a-cc5bb10ccfdb")
+		)
+		(pad "G1" smd circle
+			(at 7.75 -21.7)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 13 "/G1")
+			(pinfunction "G1")
+			(pintype "input")
+			(uuid "722db8f4-ed05-40d3-adbf-92a5c3140573")
+		)
+		(pad "G3" smd circle
+			(at 7.75 -15.5)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 14 "/G3")
+			(pinfunction "G3")
+			(pintype "input")
+			(uuid "be5c9c71-55fb-4617-9305-f0271d4ee7db")
+		)
+		(pad "G5" smd circle
+			(at 7.75 -9.3)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 15 "/G5")
+			(pinfunction "G5")
+			(pintype "input")
+			(uuid "4a7eabba-8f5c-494a-aa19-edadd4b6b0f8")
+		)
+		(pad "G7" smd circle
+			(at 7.75 -3.1)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 16 "/G7")
+			(pinfunction "G7")
+			(pintype "input")
+			(uuid "ff56b813-80ca-49c0-b0d0-ebc2fe769e0d")
+		)
+		(pad "H2" smd circle
+			(at 10.85 -18.6)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 32 "/H2")
+			(pinfunction "H2")
+			(pintype "input")
+			(uuid "25a692b9-9c75-46b3-b2c7-27d2dec43d11")
+		)
+		(pad "H4" smd circle
+			(at 10.85 -12.4)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 31 "/H4")
+			(pinfunction "H4")
+			(pintype "input")
+			(uuid "6229746a-8ef3-4a6f-b715-0578b9ca94b4")
+		)
+		(pad "H6" smd circle
+			(at 10.85 -6.2)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 30 "/H6")
+			(pinfunction "H6")
+			(pintype "input")
+			(uuid "b201471e-6dfd-4998-9ab0-59c981a17ef6")
+		)
+		(pad "H8" smd circle
+			(at 10.85 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 29 "/H8")
+			(pinfunction "H8")
+			(pintype "input")
+			(uuid "16927c64-7b1c-462b-a168-273ea79d629c")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "e9733d30-d038-4517-bb71-49e83c21ea6c")
+		(at 90 92)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J8"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "98b1feb8-45fe-4bb2-b792-023b7cfdca62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "ea508bed-c343-4a4e-96d7-faa05dd2529d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b2864c4-ebcd-49c6-bad8-95e5447c9e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dfdefc4-a040-4f41-815d-890dafe7fc72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d50406cd-ff10-4736-beb3-3900335a939f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/bf28eba6-d147-484d-b4c2-098a5659c4eb")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f97f1e48-7110-4114-9aa8-331762e27d77")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61fd8b81-3407-40c9-96e1-b0fc85bd3741")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f4bebf4-6ca7-43d6-b1b3-112757f32582")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a0ab88d-9132-47da-97d1-b45345a89513")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "3ba7ccfe-d21c-449d-b6e3-6dd276ff07c8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "495bc543-119a-4943-8c36-f511a0010163")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 8 "/B7")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "fe421668-3956-4244-b9d0-09e44bbfdcb3")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "ed5a3058-d73e-4f58-9665-b1342b2037ca")
+		(at 113 74)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J31"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "60fc40d9-1c8c-43fd-b789-d3ae38a76d82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "16acbc5d-2045-4eb2-92e8-b487fc8609cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04c9a95-99ba-45c2-9db4-e2a12eb1d633")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8cfd3df-69da-44ae-b657-a591d77f0db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51435f5c-e3f6-444f-a0ba-692a91be39c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/823d6bf6-2152-43f7-99b3-6145a1e4db87")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "baef5f17-60f4-4989-a067-845c78ad02ec")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e5b6d188-0d31-4092-b2c5-dfec8ad81251")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71b1ffbc-dea0-44f9-95ef-d0288be8f520")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57d8b9ae-92b9-44d0-a0c1-1bfd48a0d822")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a429b60e-0ed8-4092-8419-0507b416ff22")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fb37fc46-be47-4656-b900-65aab122b091")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 31 "/H4")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "cd369fd7-ea7e-430b-b513-bfab6d7c9739")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "ed79fef5-3e89-4a3a-b645-78d32339d876")
+		(at 82 91.2 -90)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP3"
+			(at 0.725 -1.775 90)
+			(layer "F.SilkS")
+			(uuid "7dac8133-7bd1-4dc7-a102-b96b0d4f8a93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 0.725 1.925 90)
+			(layer "F.Fab")
+			(uuid "1aeadb8a-3da7-448b-a13f-260287658257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1d4155a-0870-4908-8258-4151f291f7b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc8502e-323f-47bc-99e7-40151b986fa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ae64fc7-5eab-4bce-820d-82b41d1431cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/f9885bf2-b064-4632-8342-87fb75da5342")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.7 1.5)
+			(end -1.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f90f3d1-73cc-4338-9934-88b8b864b29c")
+		)
+		(fp_line
+			(start -1.1 1.5)
+			(end -1.4 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "de52e3dc-8561-4c09-beec-d6e84d0ed9ab")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5140f0b2-b833-4efa-839c-486233d4b01a")
+		)
+		(fp_line
+			(start -2.75 0.95)
+			(end -2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a1d328e9-70c6-44a8-885a-2238186aa557")
+		)
+		(fp_line
+			(start 2.75 0.95)
+			(end -2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "63ab7861-3172-4358-beac-0fcc916ebb89")
+		)
+		(fp_line
+			(start -2.75 -1)
+			(end 2.75 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c2b09322-0929-492a-83a0-fff2a21ff5ad")
+		)
+		(fp_line
+			(start 2.75 -1)
+			(end 2.75 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5f513437-de4b-416d-9b9e-9df294b34774")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae057f7e-2f80-4fe0-a8b0-c45ca8cdb2b5")
+		)
+		(fp_line
+			(start 3 1.25)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "542a397d-bfd0-4c5c-a802-158fd82cf581")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end -2.98 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "81f27418-458e-4955-92a1-edd71cbe2d08")
+		)
+		(fp_line
+			(start -2.98 -1.27)
+			(end 3 -1.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "139e5437-87cc-4ca8-a5fa-0e7842ca3139")
+		)
+		(pad "" smd rect
+			(at -1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "b12cef2b-ce54-42ef-853c-abd1d0dc172a")
+		)
+		(pad "" smd rect
+			(at 1.2 0 270)
+			(size 1.5 1.5)
+			(layers "F.Mask")
+			(uuid "afd66015-614d-445a-974b-ce8e4f1b4868")
+		)
+		(pad "1" smd custom
+			(at -2 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 22 "/A6")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "4c9e4d28-7f4f-4fbd-9bd7-47c313a9d91b")
+		)
+		(pad "2" smd custom
+			(at 0 0 270)
+			(size 0.3 0.3)
+			(layers "F.Cu")
+			(net 21 "/A8")
+			(pinfunction "C")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.7 0) (xy 1.2 0.75) (xy -1.2 0.75) (xy -0.7 0) (xy -1.2 -0.75) (xy 1.2 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "483cb9da-6f11-4c87-a796-7e214d7cadd4")
+		)
+		(pad "3" smd custom
+			(at 2 0 90)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net 17 "/C8")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "8f71e5ca-5034-4027-a95c-3789dec97dcd")
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "eda030d3-168e-428d-a5fb-9cc807148a1f")
+		(at 98 89)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J12"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "96714c90-52db-4d52-b13c-8708e56fe552")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "8e6af581-ddc3-4639-b544-2b21bf589795")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad0b548b-628d-49e5-99b7-6188fa35d8fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31ad4494-e20f-484b-8b1c-a1a86ae3c8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04dbbc55-5bb3-490e-80d2-6efe1b347bd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/fe39ab8b-ceb2-4455-9f90-3ce616af0e2a")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76aa4f76-619e-4de4-8698-205bece4beba")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95b8bc25-f4d6-46eb-8e3b-b2c1e2913946")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91114f59-3b00-4920-9196-042e6af4ca25")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd78dd5b-8516-4d74-9079-4d0f8fc9fe7e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "91006c12-1add-4d52-8890-d65d7b5b896b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7785991a-2008-488f-a067-90d6c228d3f5")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 12 "/E7")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "a7f09126-b3aa-4526-aef3-d04cdfedb457")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "F.Cu")
+		(uuid "f882a050-2d82-43b9-aa70-c185466e6a91")
+		(at 118 78)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J26"
+			(at 0 -2.05 0)
+			(layer "F.SilkS")
+			(uuid "7b17940e-7a0b-4d98-9d10-e1f539b5ed40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "dc96a1d2-3628-4a2a-ba45-456e7049fb34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69d32068-a83a-4c7a-937b-23d6e9f23e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c59c6e7-9669-43ad-b4a8-a9728a94b3cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e08d07c4-8edc-4ec4-b486-09fbccaaec3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/8d50a2db-9e7f-4234-9ee5-0c5396d3b68e")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47295c07-65ac-4704-975c-d3e860ec94b0")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2751a8c3-511e-4eab-b0f9-1782bb3962d0")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ca8cba7f-9b75-42c5-a617-0e0cb2a578a8")
+		)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e690f24b-cada-4493-bf01-951edb1b0206")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "203e271a-0200-4980-8c09-23d686c2577d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "211a0659-0f06-431f-a7d1-21d98fdf90fa")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 26 "/F6")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "e5e10fd4-cc63-424a-a953-f35f71cf82ed")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+		(layer "B.Cu")
+		(uuid "61f811da-58fc-4bab-b6d6-9667b3d3a68d")
+		(at 94 57 180)
+		(descr "Soldered wire connection, for a single 0.15 mm² wire, basic insulation, conductor diameter 0.5mm, outer diameter 1.5mm, size source Multi-Contact FLEXI-E 0.15 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
+		(tags "connector wire 0.15sqmm")
+		(property "Reference" "J2"
+			(at 0 2.05 0)
+			(layer "B.SilkS")
+			(uuid "2fc11581-2a35-4b0f-8117-34ab1b18e3b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 0 -2.05 0)
+			(layer "B.Fab")
+			(uuid "0f552263-7a2e-4059-85b5-4010f4d78317")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc8ee5cf-4295-4d89-bbbb-809daf501037")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a703da22-4000-4824-a687-75d59f44cfc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c869155a-7da7-481c-aa99-7401ef147dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/02a905a8-5c47-4219-8203-3d6b200c4b2d")
+		(sheetname "Root")
+		(sheetfile "SiPM_board_draft.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start 1.5 1.35)
+			(end 1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "090329cc-057e-4f2e-9242-5d590b724430")
+		)
+		(fp_line
+			(start 1.5 -1.35)
+			(end -1.5 -1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "97d079de-902d-442b-8b2b-675ac848ca33")
+		)
+		(fp_line
+			(start -1.5 1.35)
+			(end 1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "bc70bcd7-7a31-4e62-9059-aeba6e2065cc")
+		)
+		(fp_line
+			(start -1.5 -1.35)
+			(end -1.5 1.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "c3fab32e-1d58-4927-89f7-5fd114a858ef")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "b984d270-2181-494d-b8de-d86d107e0b10")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(uuid "2916054c-cb9e-450e-af19-18a37969d890")
+			(effects
+				(font
+					(size 0.38 0.38)
+					(thickness 0.06)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 180)
+			(size 1.7 1.7)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net 2 "/D3")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "c2c2c486-253e-4ff5-8c9d-b120f109c95c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 72.5 55)
+		(end 120.5 95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "a8785247-53f4-4bb2-942c-a89436dd2c0e")
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "11a7bde5-3460-4bf1-b128-1977f902f9ad")
+		(pts
+			(xy 116.5 91) (xy 116.5 59)
+		)
+		(height 14)
+		(gr_text "32.0000 mm"
+			(at 129.35 75 90)
+			(layer "Dwgs.User")
+			(uuid "11a7bde5-3460-4bf1-b128-1977f902f9ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "1a73f704-8158-4d40-ad7d-a8ee5c57fe55")
+		(pts
+			(xy 72.5 95) (xy 72.5 55)
+		)
+		(height -6.5)
+		(gr_text "40.0000 mm"
+			(at 64.85 75 90)
+			(layer "Dwgs.User")
+			(uuid "1a73f704-8158-4d40-ad7d-a8ee5c57fe55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "6f1e1910-baa0-4e30-86c8-3b76407c4a8e")
+		(pts
+			(xy 116.5 59) (xy 76.5 59)
+		)
+		(height 6)
+		(gr_text "40.0000 mm"
+			(at 96.5 51.85 0)
+			(layer "Dwgs.User")
+			(uuid "6f1e1910-baa0-4e30-86c8-3b76407c4a8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a9eabcdd-f70a-449b-9af0-a501508eae76")
+		(pts
+			(xy 72.5 95) (xy 120.5 95)
+		)
+		(height 7.5)
+		(gr_text "48.0000 mm"
+			(at 96.5 101.35 0)
+			(layer "Dwgs.User")
+			(uuid "a9eabcdd-f70a-449b-9af0-a501508eae76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+)
