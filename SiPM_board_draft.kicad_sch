@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -6491,7 +6491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 134.62 121.92 0)
 			(effects
 				(font
@@ -6703,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 158.75 121.92 0)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 134.62 90.17 0)
 			(effects
 				(font
@@ -7519,7 +7519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 134.62 73.66 0)
 			(effects
 				(font
@@ -7590,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 134.62 105.41 0)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged123_Pad1.0x1.5mm"
 			(at 158.75 105.41 0)
 			(effects
 				(font
