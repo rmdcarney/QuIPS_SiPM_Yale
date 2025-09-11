@@ -3763,6 +3763,16 @@
 		)
 		(uuid "065691ad-7d7c-472b-a212-6ff2273428d9")
 	)
+	(label "biasCh5"
+		(at 194.31 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0856356d-aecc-45f4-bec6-c1dcde2489ee")
+	)
 	(label "C6"
 		(at 55.88 165.1 180)
 		(effects
@@ -3813,16 +3823,6 @@
 		)
 		(uuid "18b924e3-357b-4488-a2f9-8dd129f8e1c8")
 	)
-	(label "H2"
-		(at 218.44 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "19feee6e-8af7-4520-9dfe-12bf6cbc6fe3")
-	)
 	(label "biasCh7"
 		(at 44.45 87.63 180)
 		(effects
@@ -3852,6 +3852,26 @@
 			(justify left bottom)
 		)
 		(uuid "22750be8-308e-4436-83bc-dc4b15457fb4")
+	)
+	(label "sigCh5"
+		(at 55.88 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23aa5ade-6b58-45ae-8a90-bc49e0563df9")
+	)
+	(label "sigCh7"
+		(at 55.88 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25b43b4b-baf4-4e0c-b1de-fed43c4dc1f4")
 	)
 	(label "E3"
 		(at 73.66 162.56 0)
@@ -3893,16 +3913,6 @@
 		)
 		(uuid "2926dc69-c5c2-492a-9514-609b9ab5c8ee")
 	)
-	(label "H8"
-		(at 219.71 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29dce146-02a7-4ef1-a65a-203684405444")
-	)
 	(label "D3"
 		(at 194.31 64.77 180)
 		(effects
@@ -3933,25 +3943,15 @@
 		)
 		(uuid "32bb3012-209d-4549-9644-13ea39168586")
 	)
-	(label "A8"
-		(at 55.88 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33b1df12-c386-4d1a-845d-7ed8f6d733bc")
-	)
-	(label "G1"
-		(at 73.66 175.26 0)
+	(label "biasCh7"
+		(at 194.31 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "359e9d88-d9e0-4677-ab79-3e7b7a776c48")
+		(uuid "35e2f7d1-c734-4262-a078-ace2085ecdfe")
 	)
 	(label "GND"
 		(at 110.49 167.64 180)
@@ -4073,6 +4073,16 @@
 		)
 		(uuid "5cc717d5-08d4-4880-871c-5d97c54e91e0")
 	)
+	(label "biasCh6"
+		(at 218.44 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f10933e-b2c2-4d06-8439-a538a356b2df")
+	)
 	(label "GND"
 		(at 204.47 91.44 0)
 		(effects
@@ -4153,16 +4163,6 @@
 		)
 		(uuid "72b34933-0df2-49ce-868c-6965da513604")
 	)
-	(label "G7"
-		(at 73.66 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72bc8d38-f10d-4219-831c-20774384d15f")
-	)
 	(label "biasCh6"
 		(at 87.63 77.47 0)
 		(effects
@@ -4192,16 +4192,6 @@
 			(justify right bottom)
 		)
 		(uuid "7bf5d49e-d09f-4416-8617-b267481d0344")
-	)
-	(label "A2"
-		(at 55.88 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e0eb6b2-b4d3-463c-8909-395157247682")
 	)
 	(label "biasCh5"
 		(at 44.45 95.25 180)
@@ -4323,16 +4313,6 @@
 		)
 		(uuid "a161cc64-c9b5-4b14-8e05-0cf31a39d43b")
 	)
-	(label "B1"
-		(at 194.31 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a280d408-127d-4332-ae11-20330b7cb4c8")
-	)
 	(label "preF_Ch4"
 		(at 92.71 165.1 180)
 		(effects
@@ -4403,6 +4383,16 @@
 		)
 		(uuid "b5ce85f2-b812-4f86-9755-0927f43fc34e")
 	)
+	(label "biasCh8"
+		(at 219.71 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b796fe17-54a5-4e7e-9f0a-5b58e8cdecee")
+	)
 	(label "A6"
 		(at 55.88 180.34 180)
 		(effects
@@ -4423,6 +4413,16 @@
 		)
 		(uuid "bc99dff9-a7ae-46db-bf08-cdf984999709")
 	)
+	(label "sigCh8"
+		(at 73.66 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be1d38ab-3d1d-4223-bf09-bf6774160c52")
+	)
 	(label "preF_Ch3"
 		(at 194.31 91.44 0)
 		(effects
@@ -4432,6 +4432,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0ea62ab-4ef4-463a-8274-799790efaf5d")
+	)
+	(label "sigCh6"
+		(at 73.66 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3e594b4-b3be-4c5f-a8ed-1f7edb6985f7")
 	)
 	(label "biasCh8"
 		(at 87.63 87.63 0)
@@ -4462,16 +4472,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca0dbbd5-8cb4-4446-bbab-4ebf3a23803a")
-	)
-	(label "B7"
-		(at 194.31 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca62ac71-847b-4ed2-a338-a3e211814c6b")
 	)
 	(label "GND"
 		(at 228.6 107.95 0)
